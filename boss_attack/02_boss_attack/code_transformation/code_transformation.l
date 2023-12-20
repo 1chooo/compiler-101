@@ -41,8 +41,8 @@ IN_IF         (true)|(false)
 %%
 
 {SINGLE_COM}    {
-                 single_comment[countLine] = 1;
-                 BEGIN SINGLE_COM_STATE;
+    single_comment[countLine] = 1;
+    BEGIN SINGLE_COM_STATE;
 }
 {MULTI_COM_F}   {
                  multi_comment_f[countLine] = 1;

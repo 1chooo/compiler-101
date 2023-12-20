@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/linchunho/Developer/my-lisp/boss_attack",
-      "program": "/Users/linchunho/Developer/my-lisp/boss_attack/build/Debug/outDebug"
+      "cwd": "/Users/linchunho/Developer/my-lisp/boss_attack/02_boss_attack/code_transformation",
+      "program": "/Users/linchunho/Developer/my-lisp/boss_attack/02_boss_attack/code_transformation/build/Debug/outDebug"
     }
   ]
 }

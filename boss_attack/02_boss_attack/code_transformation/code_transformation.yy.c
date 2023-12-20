@@ -786,8 +786,8 @@ case 1:
 YY_RULE_SETUP
 #line 43 "code_transformation.l"
 {
-                 single_comment[countLine] = 1;
-                 BEGIN SINGLE_COM_STATE;
+    single_comment[countLine] = 1;
+    BEGIN SINGLE_COM_STATE;
 }
 	YY_BREAK
 case 2:
